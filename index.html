@@ -1,12 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<title>Incredible India – Destinations</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <H1 align="center">Incredible INDIA</H1>
-    <H1 align="right">Incredible INDIA</H1>
+
+<section class="hero">
+  <h1>Explore Amazing Destinations</h1>
+  <p>
+    From the majestic Himalayas to the serene backwaters of Kerala,<br>
+    experience the diversity and beauty of India
+  </p>
+</section>
+
+<section class="slider-section">
+  <span class="arrow" onclick="scrollSlider(-1)">&#10094;</span>
+
+  <div class="slider">
+    <!-- Delhi -->
+    <div class="card">
+      <div class="card-img">
+        <img src="Images/delhi 1.jpg">
+        <div class="tag">Delhi</div>
+      </div>
+      <div class="card-content">
+        <h3>DELHI</h3>
+        <div class="subtitle">Capital City</div>
+        <p>Historic monuments and vibrant culture.</p>
+        <button class="btn" onclick="openModal('Delhi')">Discover More</button>
+      </div>
+    </div>
+
+    <!-- Udaipur -->
+    <div class="card">
+      <div class="card-img">
+        <img src="Images/udaipur 1.avif">
+        <div class="tag">Udaipur</div>
+      </div>
+      <div class="card-content">
+        <h3>UDAIPUR</h3>
+        <div class="subtitle">City of Lakes</div>
+        <p>Romantic palaces and scenic lakes.</p>
+        <button class="btn" onclick="openModal('Udaipur')">Discover More</button>
+      </div>
+    </div>
+
+    <!-- Varanasi -->
+    <div class="card">
+      <div class="card-img">
+        <img src="Images/varanasi 1.jpg">
+        <div class="tag">Varanasi</div>
+      </div>
+      <div class="card-content">
+        <h3>VARANASI</h3>
+        <div class="subtitle">Spiritual Capital</div>
+        <p>Ghats, temples and Ganga aarti.</p>
+        <button class="btn" onclick="openModal('Varanasi')">Discover More</button>
+      </div>
+    </div>
+
+    <!-- Bhubaneswar -->
+    <div class="card">
+      <div class="card-img">
+        <img src="Images/bhubaneswar 1.jpg">
+        <div class="tag">Bhubaneswar</div>
+      </div>
+      <div class="card-content">
+        <h3>BHUBANESWAR</h3>
+        <div class="subtitle">Temple City</div>
+        <p>Ancient temples and heritage.</p>
+        <button class="btn" onclick="openModal('Bhubaneswar')">Discover More</button>
+      </div>
+    </div>
+
+    <!-- Goa -->
+    <div class="card">
+      <div class="card-img">
+        <img src="Images/goa 1.webp">
+        <div class="tag">Goa</div>
+      </div>
+      <div class="card-content">
+        <h3>GOA</h3>
+        <div class="subtitle">Beach Paradise</div>
+        <p>Beaches and nightlife.</p>
+        <button class="btn" onclick="openModal('Goa')">Discover More</button>
+      </div>
+    </div>
+
+    <!-- Mumbai -->
+    <div class="card">
+      <div class="card-img">
+        <img src="Images/mumbai 1.jpg">
+        <div class="tag">Mumbai</div>
+      </div>
+      <div class="card-content">
+        <h3>MUMBAI</h3>
+        <div class="subtitle">City of Dreams</div>
+        <p>Financial capital of India.</p>
+        <button class="btn" onclick="openModal('Mumbai')">Discover More</button>
+      </div>
+    </div>
+
+    <!-- Gangtok -->
+    <div class="card">
+      <div class="card-img">
+        <img src="Images/gangtok 1.jpg">
+        <div class="tag">Gangtok</div>
+      </div>
+      <div class="card-content">
+        <h3>GANGTOK</h3>
+        <div class="subtitle">Himalayan Gem</div>
+        <p>Mountains and monasteries.</p>
+        <button class="btn" onclick="openModal('Gangtok')">Discover More</button>
+      </div>
+    </div>
+
+    <!-- Darjeeling -->
+    <div class="card">
+      <div class="card-img">
+        <img src="Images/darjeeling 1.webp">
+        <div class="tag">Darjeeling</div>
+      </div>
+      <div class="card-content">
+        <h3>DARJEELING</h3>
+        <div class="subtitle">Tea Hills</div>
+        <p>Tea gardens and toy train.</p>
+        <button class="btn" onclick="openModal('Darjeeling')">Discover More</button>
+      </div>
+    </div>
+
+    <!-- Srinagar -->
+    <div class="card">
+      <div class="card-img">
+        <img src="Images/srinagar 1.jpeg">
+        <div class="tag">Srinagar</div>
+      </div>
+      <div class="card-content">
+        <h3>SRINAGAR</h3>
+        <div class="subtitle">Paradise on Earth</div>
+        <p>Dal Lake and houseboats.</p>
+        <button class="btn" onclick="openModal('Srinagar')">Discover More</button>
+      </div>
+    </div>
+  </div>
+
+  <span class="arrow" onclick="scrollSlider(1)">&#10095;</span>
+</section>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2 id="placeTitle"></h2>
+
+    <div class="carousel">
+      <span class="arrow" onclick="prevImg()">&#10094;</span>
+      <img id="carouselImg">
+      <span class="arrow" onclick="nextImg()">&#10095;</span>
+    </div>
+
+    <div class="info-box">
+      <div class="info-grid" id="infoGrid"></div>
+      <p id="placeInfo"></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
