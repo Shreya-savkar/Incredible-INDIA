@@ -6,101 +6,101 @@ function scrollSlider(dir){
 const places = {
   Delhi:{
     imgs:[
-      "Images/delhi 1.jpg",
-      "Images/delhi 2.jpg",
-      "Images/delhi 3.jpg",
-      "Images/delhi 4.avif",
-      "Images/delhi 5.jpeg"
+      "images/delhi1.jpg",
+      "images/delhi2.jpg",
+      "images/delhi3.jpg",
+      "images/delhi4.avif",
+      "images/delhi5.jpeg"
     ],
     info:"Delhi blends ancient history with modern life.",
     meta:["Best Time: Oct–Mar","Duration: 2–3 Days","Location: Delhi"]
   },
   Udaipur:{
     imgs:[
-      "Images/udaipur 1.avif",
-      "Images/udaipur 2.jpg",
-      "Images/udaipur 3.avif",
-      "Images/udaipur 4.avif",
-      "Images/udaipur 5.avif"
+      "images/udaipur1.avif",
+      "images/udaipur2.jpg",
+      "images/udaipur3.avif",
+      "images/udaipur4.avif",
+      "images/udaipur5.avif"
     ],
     info:"Udaipur is famous for lakes and palaces.",
     meta:["Best Time: Sep–Mar","Duration: 2 Days","Location: Rajasthan"]
   },
   Varanasi:{
     imgs:[
-      "Images/varanasi 1.jpg",
-      "Images/varanasi 2.webp",
-      "Images/varanasi 3.jpeg",
-      "Images/varanasi 4.jpg"
+      "images/varanasi1.jpg",
+      "images/varanasi2.webp",
+      "images/varanasi3.jpeg",
+      "images/varanasi4.jpg"
     ],
     info:"One of the world's oldest cities.",
     meta:["Best Time: Nov–Feb","Duration: 2 Days","Location: UP"]
   },
   Bhubaneswar:{
     imgs:[
-      "Images/bhubaneswar 1.jpg",
-      "Images/bhubaneswar 2.jpg",
-      "Images/bhubaneswar 3.jpg",
-      "Images/bhubaneswar 4.jpg",
-      "Images/bhubaneswar 5.jpg",
-      "Images/bhubaneswar 6.jpg"
+      "images/bhubaneswar1.jpg",
+      "images/bhubaneswar2.jpg",
+      "images/bhubaneswar3.jpg",
+      "images/bhubaneswar4.jpg",
+      "images/bhubaneswar5.jpg",
+      "images/bhubaneswar6.jpg"
     ],
     info:"Temple city of India.",
     meta:["Best Time: Oct–Mar","Duration: 2 Days","Location: Odisha"]
   },
   Goa:{
     imgs:[
-      "Images/goa 1.webp",
-      "Images/goa 2.jpg",
-      "Images/goa 3.jpg",
-      "Images/goa 4.jpg",
-      "Images/goa 5.jpg"
+      "images/goa1.webp",
+      "images/goa2.jpg",
+      "images/goa3.jpg",
+      "images/goa4.jpg",
+      "images/goa5.jpg"
     ],
     info:"India's beach capital.",
     meta:["Best Time: Nov–Feb","Duration: 3 Days","Location: Goa"]
   },
   Mumbai:{
     imgs:[
-      "Images/mumbai 1.jpg",
-      "Images/mumbai 2.jpg",
-      "Images/mumbai 3.jpg",
-      "Images/mumbai 4.jpg",
-      "Images/mumbai 5.jpg",
-      "Images/mumbai 6.jpg"
+      "images/mumbai1.jpg",
+      "images/mumbai2.jpg",
+      "images/mumbai3.jpg",
+      "images/mumbai4.jpg",
+      "images/mumbai5.jpg",
+      "images/mumbai6.jpg"
     ],
     info:"The city that never sleeps.",
     meta:["Best Time: Oct–Feb","Duration: 2 Days","Location: Maharashtra"]
   },
   Gangtok:{
     imgs:[
-      "Images/gangtok 1.jpg",
-      "Images/gangtok 2.jpg",
-      "Images/gangtok 3.jpg",
-      "Images/gangtok 4.jpg",
-      "Images/gangtok 5.jpg"
+      "images/gangtok1.jpg",
+      "images/gangtok2.jpg",
+      "images/gangtok3.jpg",
+      "images/gangtok4.jpg",
+      "images/gangtok5.jpg"
     ],
     info:"Gateway to Sikkim.",
     meta:["Best Time: Mar–Jun","Duration: 3 Days","Location: Sikkim"]
   },
   Darjeeling:{
     imgs:[
-      "Images/darjeeling 1.webp",
-      "Images/darjeeling 2.webp",
-      "Images/darjeeling 3.webp",
-      "Images/darjeeling 4.webp",
-      "Images/darjeeling 5.webp"
+      "images/darjeeling1.webp",
+      "images/darjeeling2.webp",
+      "images/darjeeling3.webp",
+      "images/darjeeling4.webp",
+      "images/darjeeling5.webp"
     ],
     info:"Famous for tea gardens.",
     meta:["Best Time: Apr–Jun","Duration: 2 Days","Location: WB"]
   },
   Srinagar:{
     imgs:[
-      "Images/srinagar 1.jpeg",
-      "Images/srinagar 2.jpg",
-      "Images/srinagar 3.jpg",
-      "Images/srinagar 4.jpg",
-      "Images/srinagar 5.jpg",
-      "Images/srinagar 6.jpg"
+      "images/srinagar1.jpeg",
+      "images/srinagar2.jpg",
+      "images/srinagar3.jpg",
+      "images/srinagar4.jpg",
+      "images/srinagar5.jpg",
+      "images/srinagar6.jpg"
     ],
     info:"Heaven on earth.",
     meta:["Best Time: Apr–Oct","Duration: 3 Days","Location: J&K"]
